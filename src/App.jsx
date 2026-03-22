@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {  Routes, Route, Navigate } from "react-router-dom";
 
 import NavBar from "./Components/NavBar/NavBar";
 import Header from "./Components/Header/Header";
@@ -21,7 +21,6 @@ function App() {
   }, [theme]);
 
   return (
-    <Router>
       <div className="transition-all duration-300 bg-white dark:bg-[#0F172A] min-h-screen">
         <NavBar
           name="Hadi"
@@ -120,7 +119,6 @@ function App() {
         </Routes>
 
       </div>
-    </Router>
   );
 }
 
