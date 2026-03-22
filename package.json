@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://hadi-salloum-hue.github.io/protfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist "
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
