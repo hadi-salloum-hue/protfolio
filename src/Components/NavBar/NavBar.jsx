@@ -21,6 +21,7 @@ const NavBar = ({ theme, setTheme, name }) => {
     const [active, setActive] = useState("");
 
     // مراقبة الأقسام لتحديد اي قسم عالشاشة 
+    
     useEffect(() => {
         const sections = document.querySelectorAll("section[id]");
         const observer = new IntersectionObserver(

@@ -44,7 +44,7 @@ const Header = ({ span, MyName, tech, description, download }) => {
                     {/* زر تحميل الـ CV  */}
                     <a
                         href={CV}
-                        download="Hadi-Al-Salloum.pdf"
+                        download="Hadi_Al-Salloum_CV_.pdf"
                         className="bg-white/60 mt-6 md:mt-7.5 px-6 py-3 ml-5 rounded-lg w-fit text-primary dark:text-white hover:bg-primary hover:text-[#0C96E2] dark:hover:bg-white dark:hover:text-[#0C96E2] transition-all duration-300"
                     >
                         {download}
