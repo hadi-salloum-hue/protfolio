@@ -1,5 +1,5 @@
 import Vector1 from "../../../public/Vector 1.png"
-import CV from "../../../public/Hadi Al-Salloum.pdf"
+import CV from "../../../public/Hadi_Al-Salloum_CV_.pdf"
 import Vector3 from "../../../public/Vector 3.png"
 import BlurGradient from "../../../public/Blur Gradient.png"
 import HadiPhoto from "../../../public/Hadi.png"
